@@ -20,6 +20,7 @@ export default function Home() {
     router.push(`/search?term=${term}`);
   };
   return (
+    //Head
     <div className='flex flex-col items-center justify-center h-screen' >
       <Head>
         <title>Google</title>
@@ -30,6 +31,7 @@ export default function Home() {
     <p className='link'>About</p>
     <p className='link'>Store</p>
         </div>
+        
         <div className='flex space-x-4 items-center'>
           <p className='link'>Gmail</p>
           <p className='link'>Images</p>
