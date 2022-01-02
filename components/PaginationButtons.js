@@ -20,7 +20,6 @@ function PaginationButtons() {
                    <p>Next</p>
                </div>
                </Link>
-
         </div>
     );
 }
